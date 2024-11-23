@@ -11,11 +11,18 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^1.7.7",
     "cors": "^2.8.5",
     "docx-pdf": "^0.0.1",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "express-fileupload": "^1.5.1",
+    "form-data": "^4.0.1",
+    "fs-extra": "^11.2.0",
     "nodemon": "^3.1.7",
-    "office-document-properties": "^1.1.0"
+    "office-document-properties": "^1.1.0",
+    "path": "^0.12.7",
+    "pdfkit": "^0.15.1",
+    "uuid": "^11.0.3"
   }
 }
