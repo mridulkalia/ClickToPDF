@@ -5,7 +5,6 @@ const Navbar = () => {
   return (
     <nav className='bg-white p-4 shadow-lg'>
       <div className='container mx-auto flex items-center'>
-        {/* Logo */}
         <div className='text-3xl font-extrabold ps-4 pe-12 pb-1'>
           <Link
             to='/'
@@ -19,7 +18,6 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Navigation Links */}
         <div className='flex space-x-6'>
           <NavLink
             to='/wordtopdf'
@@ -32,14 +30,14 @@ const Navbar = () => {
             Word to PDF
           </NavLink>
           <NavLink
-            to='/privacy'
+            to='/contact'
             className={({ isActive }) =>
               `text-gray-700 hover:text-blue-500 font-bold text-lg transition-all duration-300 ${
                 isActive ? 'text-blue-600 font-semibold' : ''
               }`
             }
           >
-            Privacy Policy
+            Contact Us
           </NavLink>
           <NavLink
             to='/about'
