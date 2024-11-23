@@ -51,7 +51,8 @@ app.post("/convert", async (req, res) => {
       );
 
       // Construct the soffice command for conversion
-      const sofficeCommand = `"C:\\Program Files\\LibreOffice\\program\\soffice.exe" --headless --convert-to pdf --outdir "${outputDir}" "${tempFilePath}"`;
+      // const sofficeCommand = `"C:\\Program Files\\LibreOffice\\program\\soffice.exe" --headless --convert-to pdf --outdir "${outputDir}" "${tempFilePath}"`;
+      const sofficeCommand = `/usr/bin/soffice --headless --convert-to pdf --outdir "${outputDir}" "${tempFilePath}"`;
 
       // Execute the command
       exec(sofficeCommand, (err, stdout, stderr) => {
