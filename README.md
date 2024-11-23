@@ -53,6 +53,10 @@ Make sure you have the following installed:
    ```
    http://localhost:3000
    ```
-   
-   
-   
+## Website Glimpse
+   ![image](https://github.com/user-attachments/assets/d9292c27-b4be-45c6-af8b-ba06e4dacd03)
+
+   ![image](https://github.com/user-attachments/assets/d398a655-7dbb-4eb8-ab87-4515604b8013)
+
+   ![image](https://github.com/user-attachments/assets/24cb7062-7eaa-4971-a862-45694c8f00db)
+
