@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000" # Expose API on port 5000
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./api:/app
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80" # Map port 80 (Nginx) to 3000
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./frontend:/app
+    restart: always

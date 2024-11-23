@@ -223,7 +223,7 @@ const DocxToPDF = () => {
         href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Inter:wght@400;600&display=swap'
         rel='stylesheet'
       />
-      <style jsx global>{`
+      <style jsx>{`
         body {
           font-family: 'Roboto', sans-serif;
         }
